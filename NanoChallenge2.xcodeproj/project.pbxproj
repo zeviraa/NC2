@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		293049CE28933F4A00F3D08E /* PrimButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293049CD28933F4A00F3D08E /* PrimButton.swift */; };
 		293F52552893071100CB1822 /* NanoChallenge2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293F52542893071100CB1822 /* NanoChallenge2App.swift */; };
 		293F52572893071100CB1822 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293F52562893071100CB1822 /* ContentView.swift */; };
 		293F52592893071200CB1822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 293F52582893071200CB1822 /* Assets.xcassets */; };
 		293F525C2893071200CB1822 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 293F525B2893071200CB1822 /* Preview Assets.xcassets */; };
+		2959D136289361410001D656 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959D135289361410001D656 /* QuizView.swift */; };
+		2959D13A2893620E0001D656 /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959D1392893620E0001D656 /* QuizModel.swift */; };
+		2959D13C28936A500001D656 /* PrimText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959D13B28936A500001D656 /* PrimText.swift */; };
+		2959D13F28936DCD0001D656 /* QuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959D13E28936DCD0001D656 /* QuizViewModel.swift */; };
+		2959D141289376410001D656 /* OptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959D140289376410001D656 /* OptionView.swift */; };
+		2959D143289381350001D656 /* AllView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959D142289381350001D656 /* AllView.swift */; };
+		2959D1452893A07E0001D656 /* QuizCompletedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959D1442893A07E0001D656 /* QuizCompletedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		293049CD28933F4A00F3D08E /* PrimButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimButton.swift; sourceTree = "<group>"; };
 		293F52512893071100CB1822 /* NanoChallenge2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NanoChallenge2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		293F52542893071100CB1822 /* NanoChallenge2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoChallenge2App.swift; sourceTree = "<group>"; };
 		293F52562893071100CB1822 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		293F52582893071200CB1822 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		293F525B2893071200CB1822 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2959D135289361410001D656 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		2959D1392893620E0001D656 /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
+		2959D13B28936A500001D656 /* PrimText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimText.swift; sourceTree = "<group>"; };
+		2959D13E28936DCD0001D656 /* QuizViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewModel.swift; sourceTree = "<group>"; };
+		2959D140289376410001D656 /* OptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionView.swift; sourceTree = "<group>"; };
+		2959D142289381350001D656 /* AllView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllView.swift; sourceTree = "<group>"; };
+		2959D1442893A07E0001D656 /* QuizCompletedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizCompletedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +48,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		293049CC28933DEE00F3D08E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				293049CD28933F4A00F3D08E /* PrimButton.swift */,
+				2959D13B28936A500001D656 /* PrimText.swift */,
+				2959D140289376410001D656 /* OptionView.swift */,
+				2959D1442893A07E0001D656 /* QuizCompletedView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		293049CF2893406B00F3D08E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				293F52562893071100CB1822 /* ContentView.swift */,
+				2959D135289361410001D656 /* QuizView.swift */,
+				2959D142289381350001D656 /* AllView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		293F52482893071100CB1822 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +88,12 @@
 		293F52532893071100CB1822 /* NanoChallenge2 */ = {
 			isa = PBXGroup;
 			children = (
-				293F52542893071100CB1822 /* NanoChallenge2App.swift */,
-				293F52562893071100CB1822 /* ContentView.swift */,
+				2959D13D28936B910001D656 /* ViewModels */,
+				293049CC28933DEE00F3D08E /* Components */,
+				2959D1382893617C0001D656 /* Models */,
+				293049CF2893406B00F3D08E /* Views */,
 				293F52582893071200CB1822 /* Assets.xcassets */,
+				293F52542893071100CB1822 /* NanoChallenge2App.swift */,
 				293F525A2893071200CB1822 /* Preview Content */,
 			);
 			path = NanoChallenge2;
@@ -65,6 +105,22 @@
 				293F525B2893071200CB1822 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2959D1382893617C0001D656 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2959D1392893620E0001D656 /* QuizModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2959D13D28936B910001D656 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2959D13E28936DCD0001D656 /* QuizViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +193,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				293049CE28933F4A00F3D08E /* PrimButton.swift in Sources */,
+				2959D1452893A07E0001D656 /* QuizCompletedView.swift in Sources */,
+				2959D136289361410001D656 /* QuizView.swift in Sources */,
+				2959D13F28936DCD0001D656 /* QuizViewModel.swift in Sources */,
 				293F52572893071100CB1822 /* ContentView.swift in Sources */,
 				293F52552893071100CB1822 /* NanoChallenge2App.swift in Sources */,
+				2959D143289381350001D656 /* AllView.swift in Sources */,
+				2959D13C28936A500001D656 /* PrimText.swift in Sources */,
+				2959D13A2893620E0001D656 /* QuizModel.swift in Sources */,
+				2959D141289376410001D656 /* OptionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +334,7 @@
 				DEVELOPMENT_TEAM = D5XKY44W6D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMainNibFile = QuizView;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +364,7 @@
 				DEVELOPMENT_TEAM = D5XKY44W6D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMainNibFile = QuizView;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

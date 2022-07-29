@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  AllView.swift
 //  NanoChallenge2
 //
 //  Created by Zevira varies martan on 29/07/22.
@@ -7,15 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct AllView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        QuizView(quizViewModel: QuizViewModel())
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct AllView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        AllView()
     }
 }
